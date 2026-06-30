@@ -1,0 +1,450 @@
+Task :app:compileDebugKotlin
+2026-06-30T22:05:42.7371037Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/AntiXposedHooks.kt:62:55 Unchecked cast of 'Any!' to 'Array<StackTraceElement>'.
+2026-06-30T22:05:42.7432922Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/AntiXposedHooks.kt:264:67 Unnecessary safe call on a non-null receiver of type 'Class<*>'.
+2026-06-30T22:05:42.7514457Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:6:8 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7537245Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:79:65 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7574261Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:134:72 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7666620Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:134:79 'inner class Parameters : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7732743Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:141:58 'inner class Parameters : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7834258Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:142:36 'val previewSize: Camera.Size!' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7862475Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:143:60 'field width: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7902840Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:143:85 'field height: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7925157Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:144:42 'var previewFormat: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7952572Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:146:27 'fun getPreviewFpsRange(p0: IntArray!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.7972430Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:176:15 'inner class Parameters : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8012444Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:182:27 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8032671Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:182:34 'inner class Parameters : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8062898Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:184:52 'inner class Parameters : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8157478Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:272:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8182710Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:272:24 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8192823Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:278:59 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8222570Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:289:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8252739Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:289:24 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8272414Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:295:59 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8352804Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:322:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8362216Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:322:24 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8382488Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:328:59 'interface PreviewCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8412956Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:390:20 'fun onPreviewFrame(p0: ByteArray!, p1: Camera!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8442434Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:390:50 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8476641Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:407:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8479778Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:407:24 'interface ShutterCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8511648Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:408:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8532566Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:408:24 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8549874Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:409:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8554056Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:409:24 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8557790Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:410:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8561219Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:410:24 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8564248Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:416:66 'interface ShutterCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8567132Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:417:66 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8570177Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:420:40 'fun onShutter(): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8573802Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:422:36 'fun onPictureTaken(p0: ByteArray!, p1: Camera!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8576767Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:422:66 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8579410Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:433:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8582415Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:433:24 'interface ShutterCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8585154Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:434:17 'class Camera : Any' is deprecated. Deprecated in Java.
+
+
+
+2026-06-30T22:05:42.8567132Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:417:66 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8570177Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:420:40 'fun onShutter(): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8573802Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:422:36 'fun onPictureTaken(p0: ByteArray!, p1: Camera!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8576767Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:422:66 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8579410Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:433:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8582415Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:433:24 'interface ShutterCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8585154Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:434:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8587804Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:434:24 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8590691Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:435:17 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8593355Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:435:24 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8596322Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:441:66 'interface ShutterCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8599312Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:442:66 'interface PictureCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8602556Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:445:40 'fun onShutter(): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8606036Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:447:36 'fun onPictureTaken(p0: ByteArray!, p1: Camera!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8609568Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:447:66 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8613314Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:483:68 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8616413Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:483:75 'interface AutoFocusCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8619433Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:489:59 'interface AutoFocusCallback : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8622894Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:491:53 'fun onAutoFocus(p0: Boolean, p1: Camera!): Unit' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8625860Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:491:80 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8628661Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:542:66 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8631644Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:542:73 'class CameraInfo : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8634649Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:542:84 'static field CAMERA_FACING_FRONT: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8637569Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:543:52 'class Camera : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8640686Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:543:59 'class CameraInfo : Any' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8643164Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/Camera1Hooks.kt:543:70 'static field CAMERA_FACING_BACK: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8645746Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/ClonerBypassHooks.kt:363:52 Unchecked cast of 'Any!' to 'MutableMap<String, String>'.
+2026-06-30T22:05:42.8648704Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/IntentCaptureHooks.kt:206:38 'fun <T : Parcelable!> getParcelableExtra(p0: String!): T?' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8652977Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/IntentCaptureHooks.kt:249:38 'fun <T : Parcelable!> getParcelableExtra(p0: String!): T?' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8656332Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/hooks/IntentCaptureHooks.kt:315:38 'fun <T : Parcelable!> getParcelableExtra(p0: String!): T?' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8659326Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/network/ApiClient.kt:49:18 'fun setLenient(): GsonBuilder!' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8662484Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/HomeScreen.kt:99:22 'val connectionInfo: WifiInfo!' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8665686Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/HomeScreen.kt:99:38 'val ipAddress: Int' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8668446Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/HomeScreen.kt:1107:58 Redundant call of conversion method.
+2026-06-30T22:05:42.8671576Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/fragments/HomeFragment.kt:48:68 Elvis operator (?:) always returns the left operand of non-nullable type 'String'.
+2026-06-30T22:05:42.8674770Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/fragments/HomeFragment.kt:122:42 Elvis operator (?:) always returns the left operand of non-nullable type 'String'.
+2026-06-30T22:05:42.8678869Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/ui/fragments/MediaFragment.kt:51:21 'val LocalLifecycleOwner: ProvidableCompositionLocal<LifecycleOwner>' is deprecated. Moved to lifecycle-runtime-compose library in androidx.lifecycle.compose package.
+2026-06-30T22:05:42.8682830Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/utils/DeviceUtils.kt:41:41 'val connectionInfo: WifiInfo!' is deprecated. Deprecated in Java.
+2026-06-30T22:05:42.8685714Z w: file:///home/runner/work/itsme2-builder/itsme2-builder/app-source/app/src/main/java/com/itsme/amkush/utils/DeviceUtils.kt:42:32 'val ipAddress: Int' is deprecated. Deprecated in Java.
+
+
+
+
+
+ Task :app:compileDebugJavaWithJavac
+2026-06-30T22:06:03.0271481Z > Task :app:dexBuilderDebug
+2026-06-30T22:06:03.1262563Z > Task :app:mergeDebugGlobalSynthetics
+2026-06-30T22:06:03.1279973Z > Task :app:processDebugJavaRes
+2026-06-30T22:06:04.0293461Z > Task :app:mergeLibDexDebug
+2026-06-30T22:06:04.3291346Z > Task :app:mergeProjectDexDebug
+2026-06-30T22:06:05.0262322Z > Task :app:mergeDebugJavaResource
+2026-06-30T22:06:06.2261271Z 
+2026-06-30T22:06:06.2262053Z > Task :app:configureCMakeDebug[arm64-v8a]
+2026-06-30T22:06:06.2263835Z C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+2026-06-30T22:06:06.2264928Z C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+2026-06-30T22:06:06.2265429Z C/C++:   CMake.
+2026-06-30T22:06:06.2265959Z C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2026-06-30T22:06:06.2266714Z C/C++:   to tell CMake that the project requires at least <min> but has been updated
+2026-06-30T22:06:06.2268745Z C/C++:   to work with policies introduced by <max> or earlier.
+2026-06-30T22:06:06.2269611Z C/C++: Call Stack (most recent call first):
+2026-06-30T22:06:06.2271103Z C/C++:   /usr/local/lib/android/sdk/cmake/3.31.5/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:146 (include)
+2026-06-30T22:06:06.2271813Z C/C++:   CMakeLists.txt:2 (project)
+2026-06-30T22:06:06.2272810Z C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+2026-06-30T22:06:06.2273864Z C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+2026-06-30T22:06:06.2274353Z C/C++:   CMake.
+2026-06-30T22:06:06.2274880Z C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2026-06-30T22:06:06.2275618Z C/C++:   to tell CMake that the project requires at least <min> but has been updated
+2026-06-30T22:06:06.2276257Z C/C++:   to work with policies introduced by <max> or earlier.
+2026-06-30T22:06:06.2276740Z C/C++: Call Stack (most recent call first):
+2026-06-30T22:06:06.2277446Z C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+2026-06-30T22:06:06.2278675Z C/C++:   /usr/local/lib/android/sdk/cmake/3.31.5/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:146 (include)
+2026-06-30T22:06:06.2279352Z C/C++:   CMakeLists.txt:2 (project)
+2026-06-30T22:06:06.3262022Z C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+2026-06-30T22:06:06.3263178Z C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+2026-06-30T22:06:06.3263916Z C/C++:   CMake.
+2026-06-30T22:06:06.3264481Z C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2026-06-30T22:06:06.3265178Z C/C++:   to tell CMake that the project requires at least <min> but has been updated
+2026-06-30T22:06:06.3265781Z C/C++:   to work with policies introduced by <max> or earlier.
+2026-06-30T22:06:06.3266394Z C/C++: Call Stack (most recent call first):
+2026-06-30T22:06:06.3267335Z C/C++:   /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a/CMakeFiles/3.31.5/CMakeSystem.cmake:6 (include)
+2026-06-30T22:06:06.3268128Z C/C++:   CMakeLists.txt:2 (project)
+2026-06-30T22:06:07.0262691Z C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:35 (cmake_minimum_required):
+2026-06-30T22:06:07.0264586Z C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+2026-06-30T22:06:07.0265468Z C/C++:   CMake.
+2026-06-30T22:06:07.0266405Z C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2026-06-30T22:06:07.0267732Z C/C++:   to tell CMake that the project requires at least <min> but has been updated
+2026-06-30T22:06:07.0268876Z C/C++:   to work with policies introduced by <max> or earlier.
+2026-06-30T22:06:07.0269625Z C/C++: Call Stack (most recent call first):
+2026-06-30T22:06:07.0271218Z C/C++:   /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a/CMakeFiles/3.31.5/CMakeSystem.cmake:6 (include)
+2026-06-30T22:06:07.0273840Z C/C++:   /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-s5sTro/CMakeLists.txt:2 (project)
+2026-06-30T22:06:07.0276747Z C/C++: CMake Deprecation Warning at /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android-legacy.toolchain.cmake:35 (cmake_minimum_required):
+2026-06-30T22:06:07.0278583Z C/C++:   Compatibility with CMake < 3.10 will be removed from a future version of
+2026-06-30T22:06:07.0279121Z C/C++:   CMake.
+2026-06-30T22:06:07.0279643Z C/C++:   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+2026-06-30T22:06:07.0280597Z C/C++:   to tell CMake that the project requires at least <min> but has been updated
+2026-06-30T22:06:07.0281192Z C/C++:   to work with policies introduced by <max> or earlier.
+2026-06-30T22:06:07.0281611Z C/C++: Call Stack (most recent call first):
+2026-06-30T22:06:07.0282232Z C/C++:   /usr/local/lib/android/sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake:55 (include)
+2026-06-30T22:06:07.0283234Z C/C++:   /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a/CMakeFiles/3.31.5/CMakeSystem.cmake:6 (include)
+2026-06-30T22:06:07.0284511Z C/C++:   /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-s5sTro/CMakeLists.txt:2 (project)
+2026-06-30T22:06:08.2298660Z 
+2026-06-30T22:06:08.2299316Z FAILURE: Build failed with an exception.
+2026-06-30T22:06:08.2299775Z 
+2026-06-30T22:06:08.2300010Z * What went wrong:
+2026-06-30T22:06:08.2301013Z Execution failed for task ':app:buildCMakeDebug[arm64-v8a]'.
+2026-06-30T22:06:08.2303188Z > com.android.ide.common.process.ProcessException: ninja: Entering directory `/home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a'
+2026-06-30T22:06:08.2304778Z 
+2026-06-30T22:06:08.2307752Z   [1/4] Building CXX object CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o
+2026-06-30T22:06:08.2332231Z   [2/4] Linking CXX shared library /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so
+2026-06-30T22:06:08.2335017Z   FAILED: /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so 
+2026-06-30T22:06:08.2346235Z   : && /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -frtti -fexceptions -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    -Xlinker --dependency-file=CMakeFiles/libyuv_wrapper.dir/link.d -shared -Wl,-soname,liblibyuv_wrapper.so -o /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libswscale.a  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a  /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so  -latomic -lm && :
+2026-06-30T22:06:08.2357541Z   ld.lld: error: undefined symbol: ANativeWindow_release
+2026-06-30T22:06:08.2358898Z   >>> referenced by hwcontext_mediacodec.c:100 (libavutil/hwcontext_mediacodec.c:100)
+2026-06-30T22:06:08.2361454Z   >>>               hwcontext_mediacodec.o:(mc_device_uninit) in archive /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a
+2026-06-30T22:06:08.2363490Z   clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+2026-06-30T22:06:08.2364973Z   [3/4] Building CXX object CMakeFiles/ffmpeg_decoder.dir/ffmpeg_decoder.cpp.o
+2026-06-30T22:06:08.2366068Z   ninja: build stopped: subcommand failed.
+2026-06-30T22:06:08.2366766Z   
+2026-06-30T22:06:08.2367473Z   C++ build system [build] failed while executing:
+2026-06-30T22:06:08.2368430Z       /usr/local/lib/android/sdk/cmake/3.31.5/bin/ninja \
+2026-06-30T22:06:08.2369190Z         -C \
+2026-06-30T22:06:08.2370492Z         /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a \
+2026-06-30T22:06:08.2371650Z         ffmpeg_decoder \
+2026-06-30T22:06:08.2372321Z         libyuv_wrapper
+2026-06-30T22:06:08.2373250Z     from /home/runner/work/itsme2-builder/itsme2-builder/app-source/app
+2026-06-30T22:06:08.2373974Z 
+2026-06-30T22:06:08.2374255Z * Try:
+2026-06-30T22:06:08.2375009Z > Run with --info or --debug option to get more log output.
+2026-06-30T22:06:08.2375904Z > Run with --scan to get full insights.
+2026-06-30T22:06:08.2376727Z > Get more help at https://help.gradle.org.
+2026-06-30T22:06:08.2377294Z 
+2026-06-30T22:06:08.2377618Z * Exception is:
+2026-06-30T22:06:08.2378849Z org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:buildCMakeDebug[arm64-v8a]'.
+2026-06-30T22:06:08.2381119Z 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+
+
+
+
+
+Task :app:buildCMakeDebug[arm64-v8a] FAILED
+2026-06-30T22:06:08.2383548Z 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+2026-06-30T22:06:08C++ build system [build] failed while executing:
+2026-06-30T22:06:08.2510888Z     /usr/local/lib/android/sdk/cmake/3.31.5/bin/ninja \
+2026-06-30T22:06:08.2511437Z       -C \
+2026-06-30T22:06:08.2512346Z       /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a \
+2026-06-30T22:06:08.2513432Z       ffmpeg_decoder \
+2026-06-30T22:06:08.2513883Z       libyuv_wrapper
+2026-06-30T22:06:08.2514583Z   from /home/runner/work/itsme2-builder/itsme2-builder/app-source/app
+2026-06-30T22:06:08.2515859Z 	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:69)
+2026-06-30T22:06:08.2517396Z 	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:42)
+2026-06-30T22:06:08.2518660Z 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:128)
+2026-06-30T22:06:08.2520059Z 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:58)
+2026-06-30T22:06:08.2522088Z 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:51)
+2026-06-30T22:06:08.2523794Z 	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:29)
+2026-06-30T22:06:08.2525249Z 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:244)
+2026-06-30T22:06:08.2526802Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:29)
+2026-06-30T22:06:08.2528570Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:26)
+2026-06-30T22:06:08.2530564Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-06-30T22:06:08.2532326Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2534089Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-06-30T22:06:08.2535888Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2537629Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:47)
+2026-06-30T22:06:08.2539216Z 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+2026-06-30T22:06:08.2540901Z 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+2026-06-30T22:06:08.2542613Z 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+2026-06-30T22:06:08.2544223Z 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+2026-06-30T22:06:08.2545627Z 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+2026-06-30T22:06:08.2546979Z 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+2026-06-30T22:06:08.2548234Z 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+2026-06-30T22:06:08.2549446Z 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+2026-06-30T22:06:08.2551548Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026-06-30T22:06:08.2553830Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026-06-30T22:06:08.2555813Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-06-30T22:06:08.2557582Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2559356Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-06-30T22:06:08.2561597Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2563333Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026-06-30T22:06:08.2564802Z 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+2026-06-30T22:06:08.2567351Z 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+2026-06-30T22:06:08.2568799Z 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+2026-06-30T22:06:08.2570533Z 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+2026-06-30T22:06:08.2571902Z 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+2026-06-30T22:06:08.2573466Z 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+2026-06-30T22:06:08.2575284Z 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+2026-06-30T22:06:08.2577085Z 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+2026-06-30T22:06:08.2578835Z 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+2026-06-30T22:06:08.2581125Z 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+2026-06-30T22:06:08.2583066Z 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+2026-06-30T22:06:08.2585066Z 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+2026-06-30T22:06:08.2587139Z 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+2026-06-30T22:06:08.2589026Z 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+2026-06-30T22:06:08.2590930Z 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+2026-06-30T22:06:08.2592608Z 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+2026-06-30T22:06:08.2594161Z 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+2026-06-30T22:06:08.2595417Z 	at org.gradle.internal.Either$Right.fold(Either.java:175)
+2026-06-30T22:06:08.2596805Z 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+2026-06-30T22:06:08.2598282Z 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+2026-06-30T22:06:08.2599798Z 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+2026-06-30T22:06:08.2601938Z 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+2026-06-30T22:06:08.2622478Z 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+2026-06-30T22:06:08.2624223Z 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+2026-06-30T22:06:08.2625813Z 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+2026-06-30T22:06:08.2627288Z 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+2026-06-30T22:06:08.2628688Z 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+2026-06-30T22:06:08.2630796Z 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+2026-06-30T22:06:08.2633044Z 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+2026-06-30T22:06:08.2635550Z 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+2026-06-30T22:06:08.2637805Z 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+2026-06-30T22:06:08.2640079Z 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+2026-06-30T22:06:08.2643686Z 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+2026-06-30T22:06:08.2645398Z 	at .2385284Z 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+2026-06-30T22:06:08.2387667Z 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+2026-06-30T22:06:08.2389779Z 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+2026-06-30T22:06:08.2392443Z 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+2026-06-30T22:06:08.2394730Z 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+2026-06-30T22:06:08.2396805Z 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+2026-06-30T22:06:08.2398840Z 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+2026-06-30T22:06:08.2401174Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+2026-06-30T22:06:08.2403243Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+2026-06-30T22:06:08.2405202Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+2026-06-30T22:06:08.2407440Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026-06-30T22:06:08.2409926Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026-06-30T22:06:08.2413111Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-06-30T22:06:08.2415108Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2416965Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-06-30T22:06:08.2418957Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2421097Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026-06-30T22:06:08.2423218Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+2026-06-30T22:06:08.2425141Z 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+2026-06-30T22:06:08.2429022Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+2026-06-30T22:06:08.2431393Z C/C++: ninja: Entering directory `/home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a'
+2026-06-30T22:06:08.2433654Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+2026-06-30T22:06:08.2436169Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+2026-06-30T22:06:08.2438356Z 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+2026-06-30T22:06:08.2440740Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+2026-06-30T22:06:08.2443283Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+2026-06-30T22:06:08.2445405Z 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+2026-06-30T22:06:08.2447179Z 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+2026-06-30T22:06:08.2448981Z 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+2026-06-30T22:06:08.2451270Z 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+2026-06-30T22:06:08.2454055Z Caused by: org.gradle.internal.UncheckedException: com.android.ide.common.process.ProcessException: ninja: Entering directory `/home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a'
+2026-06-30T22:06:08.2456526Z [1/4] Building CXX object CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o
+2026-06-30T22:06:08.2458630Z [2/4] Linking CXX shared library /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so
+2026-06-30T22:06:08.2461330Z FAILED: /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so 
+2026-06-30T22:06:08.2473447Z : && /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -frtti -fexceptions -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    -Xlinker --dependency-file=CMakeFiles/libyuv_wrapper.dir/link.d -shared -Wl,-soname,liblibyuv_wrapper.so -o /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libswscale.a  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a  /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so  -latomic -lm && :
+2026-06-30T22:06:08.2493621Z C/C++: : && /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -frtti -fexceptions -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    -Xlinker --dependency-file=CMakeFiles/libyuv_wrapper.dir/link.d -shared -Wl,-soname,liblibyuv_wrapper.so -o /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libswscale.a  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a  /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so  -latomic -lm && :
+2026-06-30T22:06:08.2502648Z ld.lld: error: undefined symbol: ANativeWindow_release
+2026-06-30T22:06:08.2503663Z >>> referenced by hwcontext_mediacodec.c:100 (libavutil/hwcontext_mediacodec.c:100)
+2026-06-30T22:06:08.2505478Z >>>               hwcontext_mediacodec.o:(mc_device_uninit) in archive /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a
+2026-06-30T22:06:08.2507104Z clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+2026-06-30T22:06:08.2508188Z [3/4] Building CXX object CMakeFiles/ffmpeg_decoder.dir/ffmpeg_decoder.cpp.o
+2026-06-30T22:06:08.2509023Z ninja: build stopped: subcommand failed.
+
+
+
+
+
+
+
+
+org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+2026-06-30T22:06:08.2646864Z 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+2026-06-30T22:06:08.2648218Z 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:105)
+2026-06-30T22:06:08.2649476Z 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:54)
+2026-06-30T22:06:08.2651523Z 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+2026-06-30T22:06:08.2653807Z 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+2026-06-30T22:06:08.2656038Z 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+2026-06-30T22:06:08.2657955Z 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+2026-06-30T22:06:08.2659677Z 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+2026-06-30T22:06:08.2661837Z 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+2026-06-30T22:06:08.2663878Z 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+2026-06-30T22:06:08.2665793Z 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+2026-06-30T22:06:08.2667911Z 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+2026-06-30T22:06:08.2669547Z 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+2026-06-30T22:06:08.2671469Z 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+2026-06-30T22:06:08.2673117Z 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+2026-06-30T22:06:08.2674735Z 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+2026-06-30T22:06:08.2676539Z 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+2026-06-30T22:06:08.2678167Z 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+2026-06-30T22:06:08.2679674Z 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+2026-06-30T22:06:08.2681766Z 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+2026-06-30T22:06:08.2683906Z 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+2026-06-30T22:06:08.2686023Z 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+2026-06-30T22:06:08.2687750Z 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+2026-06-30T22:06:08.2689148Z 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+2026-06-30T22:06:08.2691041Z 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+2026-06-30T22:06:08.2692293Z 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+2026-06-30T22:06:08.2693694Z 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:61)
+2026-06-30T22:06:08.2695647Z 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+2026-06-30T22:06:08.2697542Z 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+2026-06-30T22:06:08.2699422Z 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+2026-06-30T22:06:08.2701689Z 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+2026-06-30T22:06:08.2703711Z 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+2026-06-30T22:06:08.2705552Z 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+2026-06-30T22:06:08.2707345Z 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+2026-06-30T22:06:08.2709084Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+2026-06-30T22:06:08.2710878Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+2026-06-30T22:06:08.2712561Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+2026-06-30T22:06:08.2714590Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:209)
+2026-06-30T22:06:08.2716832Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:204)
+2026-06-30T22:06:08.2718848Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:66)
+2026-06-30T22:06:08.2720033Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2721791Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:166)
+2026-06-30T22:06:08.2722841Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:59)
+2026-06-30T22:06:08.2723795Z 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:53)
+2026-06-30T22:06:08.2724737Z 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+2026-06-30T22:06:08.2725597Z 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+2026-06-30T22:06:08.2726589Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+2026-06-30T22:06:08.2727718Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+2026-06-30T22:06:08.2728943Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+2026-06-30T22:06:08.2730000Z 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+2026-06-30T22:06:08.2732006Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+2026-06-30T22:06:08.2734189Z 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+2026-06-30T22:06:08.2735866Z 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+2026-06-30T22:06:08.2736960Z 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+2026-06-30T22:06:08.2737978Z 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+2026-06-30T22:06:08.2739435Z 	at 
+
+
+
+org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+2026-06-30T22:06:08.2741317Z Caused by: com.android.ide.common.process.ProcessException: ninja: Entering directory `/home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a'
+2026-06-30T22:06:08.2742600Z [1/4] Building CXX object CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o
+2026-06-30T22:06:08.2743792Z [2/4] Linking CXX shared library /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so
+2026-06-30T22:06:08.2745148Z FAILED: /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so 
+2026-06-30T22:06:08.2751537Z : && /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=aarch64-none-linux-android29 --sysroot=/usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot -fPIC -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++14 -frtti -fexceptions -fno-limit-debug-info  -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    -Xlinker --dependency-file=CMakeFiles/libyuv_wrapper.dir/link.d -shared -Wl,-soname,liblibyuv_wrapper.so -o /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/build/intermediates/cxx/Debug/3a2c1y1p/obj/arm64-v8a/liblibyuv_wrapper.so CMakeFiles/libyuv_wrapper.dir/swscale_wrapper.cpp.o  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libswscale.a  /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a  /usr/local/lib/android/sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/aarch64-linux-android/29/liblog.so  -latomic -lm && :
+2026-06-30T22:06:08.2756381Z ld.lld: error: undefined symbol: ANativeWindow_release
+2026-06-30T22:06:08.2756941Z >>> referenced by hwcontext_mediacodec.c:100 (libavutil/hwcontext_mediacodec.c:100)
+2026-06-30T22:06:08.2757946Z >>>               hwcontext_mediacodec.o:(mc_device_uninit) in archive /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a
+2026-06-30T22:06:08.2758855Z clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+2026-06-30T22:06:08.2759466Z [3/4] Building CXX object CMakeFiles/ffmpeg_decoder.dir/ffmpeg_decoder.cpp.o
+2026-06-30T22:06:08.2759931Z ninja: build stopped: subcommand failed.
+2026-06-30T22:06:08.2760364Z 
+2026-06-30T22:06:08.2760559Z C++ build system [build] failed while executing:
+2026-06-30T22:06:08.2760971Z     /usr/local/lib/android/sdk/cmake/3.31.5/bin/ninja \
+2026-06-30T22:06:08.2761286Z       -C \
+2026-06-30T22:06:08.2761799Z       /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a \
+2026-06-30T22:06:08.2762310Z       ffmpeg_decoder \
+2026-06-30T22:06:08.2762557Z       libyuv_wrapper
+2026-06-30T22:06:08.2762955Z   from /home/runner/work/itsme2-builder/itsme2-builder/app-source/app
+2026-06-30T22:06:08.2763668Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:288)
+2026-06-30T22:06:08.2764588Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:108)
+2026-06-30T22:06:08.2765549Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt$executeProcess$1.invoke(ExecuteProcess.kt:106)
+2026-06-30T22:06:08.2766643Z 	at com.android.build.gradle.internal.cxx.timing.TimingEnvironmentKt.time(TimingEnvironment.kt:32)
+2026-06-30T22:06:08.2767547Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess(ExecuteProcess.kt:106)
+2026-06-30T22:06:08.2768984Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.executeProcess$default(ExecuteProcess.kt:85)
+2026-06-30T22:06:08.2769999Z 	at com.android.build.gradle.internal.cxx.build.CxxRegularBuilder.executeProcessBatch(CxxRegularBuilder.kt:332)
+2026-06-30T22:06:08.2771173Z 	at com.android.build.gradle.internal.cxx.build.CxxRegularBuilder.build(CxxRegularBuilder.kt:129)
+2026-06-30T22:06:08.2772053Z 	at com.android.build.gradle.tasks.ExternalNativeBuildTask.doTaskAction(ExternalNativeBuildTask.kt:72)
+2026-06-30T22:06:08.2773026Z 	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask$taskAction$$inlined$recordTaskAction$1.invoke(BaseTask.kt:78)
+2026-06-30T22:06:08.2773856Z 	at com.android.build.gradle.internal.tasks.Blocks.recordSpan(Blocks.java:51)
+2026-06-30T22:06:08.2774625Z 	at com.android.build.gradle.internal.tasks.UnsafeOutputsTask.taskAction(UnsafeOutputsTask.kt:81)
+2026-06-30T22:06:08.2775391Z 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2026-06-30T22:06:08.2776190Z 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+2026-06-30T22:06:08.2777090Z 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2026-06-30T22:06:08.2777841Z 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:125)
+2026-06-30T22:06:08.2778226Z 	... 116 more
+2026-06-30T22:06:08.2779591Z Caused by: com.android.ide.common.process.ProcessException: Error while executing process /usr/local/lib/android/sdk/cmake/3.31.5/bin/ninja with arguments {-C /home/runner/work/itsme2-builder/itsme2-builder/app-source/app/.cxx/Debug/3a2c1y1p/arm64-v8a ffmpeg_decoder libyuv_wrapper}
+2026-06-30T22:06:08.2781450Z 	at com.android.build.gradle.internal.process.GradleProcessResult.buildProcessException(GradleProcessResult.java:73)
+2026-06-30T22:06:08.2782521Z 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:48)
+2026-06-30T22:06:08.2783627Z 	at com.android.build.gradle.internal.cxx.process.ExecuteProcessKt.execute(ExecuteProcess.kt:277)
+2026-06-30T22:06:08.2784573Z 	... 131 more
+2026-06-30T22:06:08.2786049Z Caused by: org.gradle.process.internal.ExecException: Process 'command '/usr/local/lib/android/sdk/cmake/3.31.5/bin/ninja'' finished with non-zero exit value 1
+2026-06-30T22:06:08.2788124Z 	at org.gradle.process.internal.DefaultExecHandle$ExecResultImpl.assertNormalExitValue(DefaultExecHandle.java:442)
+2026-06-30T22:06:08.2790068Z 	at com.android.build.gradle.internal.process.GradleProcessResult.assertNormalExitValue(GradleProcessResult.java:46)
+2026-06-30T22:06:08.2791462Z 	... 132 more
+2026-06-30T22:06:08.2791699Z 
+2026-06-30T22:06:08.2791727Z 
+2026-06-30T22:06:08.2791964Z BUILD FAILED in 3m 24s
+2026-06-30T22:06:08.2792656Z C/C++: ld.lld: error: undefined symbol: ANativeWindow_release
+2026-06-30T22:06:08.2793751Z C/C++: >>> referenced by hwcontext_mediacodec.c:100 (libavutil/hwcontext_mediacodec.c:100)
+2026-06-30T22:06:08.2795731Z C/C++: >>>               hwcontext_mediacodec.o:(mc_device_uninit) in archive /home/runner/work/itsme2-builder/itsme2-builder/app-source/ffmpeg-android/arm64-v8a/lib/libavutil.a
+2026-06-30T22:06:08.2797436Z C/C++: clang++: error: linker command failed with exit code 1 (use -v to see invocation)
+2026-06-30T22:06:08.2798609Z C/C++: [3/4] Building CXX object CMakeFiles/ffmpeg_decoder.dir/ffmpeg_decoder.cpp.o
+2026-06-30T22:06:08.2799525Z C/C++: ninja: build stopped: subcommand failed.
+2026-06-30T22:06:08.2800401Z 32 actionable tasks: 32 executed
+2026-06-30T22:06:08.7821776Z ##[error]Process completed with exit code 1.
+2026-06-30T22:06:08.7930875Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-06-30T22:06:08.7932319Z Post job cleanup.
+2026-06-30T22:06:08.9189681Z (node:3109) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-06-30T22:06:08.9191001Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-06-30T22:06:08.9340594Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+2026-06-30T22:06:08.9341883Z Post job cleanup.
+2026-06-30T22:06:09.0191077Z [command]/usr/bin/git version
+2026-06-30T22:06:09.0231729Z git version 2.54.0
+2026-06-30T22:06:09.0268934Z Temporarily overriding HOME='/home/runner/work/_temp/1404acee-89f1-4bf3-ad57-6bd7001413c4' before making global git config changes
+2026-06-30T22:06:09.0271063Z Adding repository directory to the temporary git global config as a safe directory
+2026-06-30T22:06:09.0274910Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/itsme2-builder/itsme2-builder/app-source
+2026-06-30T22:06:09.0315186Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-06-30T22:06:09.0350062Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-06-30T22:06:09.0571057Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-06-30T22:06:09.0597635Z http.https://github.com/.extraheader
+2026-06-30T22:06:09.0609172Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-06-30T22:06:09.0642253Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-06-30T22:06:09.0856165Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-06-30T22:06:09.0886552Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+
+
+
+
+
+
+
