@@ -1,0 +1,409 @@
+2026-07-01 11:38:28.352 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 11:38:28.916 D/FaceGate [thread=main]: Not target (target=mnop.qrst.uvwx.yzab) — skipping org.mozilla.firefox
+2026-07-01 11:46:45.776 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 11:46:46.179 D/FaceGate [thread=main]: Not target (target=mnop.qrst.uvwx.yzab) — skipping org.mozilla.firefox
+2026-07-01 13:01:26.429 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:01:27.853 D/FaceGate [thread=main]: Not target (target=mnop.qrst.uvwx.yzab) — skipping org.mozilla.firefox
+2026-07-01 13:20:27.576 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:20:29.046 D/FaceGate [thread=main]: Not target (target=mnop.qrst.uvwx.yzab) — skipping org.mozilla.firefox
+2026-07-01 13:42:06.970 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:42:07.443 I/MAIN [thread=main]: TARGET MATCHED: org.mozilla.firefox — installing all hooks now
+2026-07-01 13:42:07.452 D/FaceGate [thread=main]: ConfigUpdateReceiver: registered in org.mozilla.firefox
+2026-07-01 13:42:07.471 D/HOOK [thread=main]: Camera1Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:42:07.560 D/FaceGate [thread=main]: Camera1Hooks hooks installed
+2026-07-01 13:42:07.561 D/FaceGate [thread=main]: Camera1 hooks installed
+2026-07-01 13:42:07.595 D/HOOK [thread=main]: Camera2Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:42:07.693 I/HOOK [thread=main]: Camera2Hooks all Camera2 hooks installed for org.mozilla.firefox
+2026-07-01 13:42:07.694 D/FaceGate [thread=main]: Camera2 hooks installed
+2026-07-01 13:42:07.699 E/FaceGate [thread=main]: CameraXHooks setAnalyzer hook failed
+2026-07-01 13:42:07.707 E/FaceGate [thread=main]: de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at com.itsme.amkush.hooks.CameraXHooks.hookImageAnalysisSetAnalyzer(CameraXHooks.kt:45)
+	at com.itsme.amkush.hooks.CameraXHooks.hookAll(CameraXHooks.kt:32)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:113)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:454)
+	at com.qihoo.util.ʾʽʼ.ʼʽʼ(Unknown Source:44)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	... 18 more
+
+2026-07-01 13:42:07.711 D/HOOK [thread=main]: CameraXHooks ImageAnalysis.Builder hook skipped: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis$Builder
+2026-07-01 13:42:07.713 D/HOOK [thread=main]: CameraXHooks bindToLifecycle hook skipped: java.lang.ClassNotFoundException: androidx.camera.lifecycle.ProcessCameraProvider
+2026-07-01 13:42:07.714 D/HOOK [thread=main]: CameraXHooks hooks installed
+2026-07-01 13:42:07.714 D/FaceGate [thread=main]: CameraX hooks installed
+2026-07-01 13:42:07.736 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:42:07.736 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:42:07.737 D/HOOK [thread=main]: Device info for EXIF: Make=samsung, Model=SM-A145F
+2026-07-01 13:42:07.749 E/HOOK [thread=main]: ExifInterface.getAttributeInt hook failed
+2026-07-01 13:42:12.989 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:42:13.524 I/MAIN [thread=main]: TARGET MATCHED: org.mozilla.firefox — installing all hooks now
+2026-07-01 13:42:13.541 D/FaceGate [thread=main]: ConfigUpdateReceiver: registered in org.mozilla.firefox
+2026-07-01 13:42:13.601 D/HOOK [thread=main]: Camera1Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:42:13.707 D/FaceGate [thread=main]: Camera1Hooks hooks installed
+2026-07-01 13:42:13.708 D/FaceGate [thread=main]: Camera1 hooks installed
+2026-07-01 13:42:13.761 D/HOOK [thread=main]: Camera2Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:42:13.868 I/HOOK [thread=main]: Camera2Hooks all Camera2 hooks installed for org.mozilla.firefox
+2026-07-01 13:42:13.868 D/FaceGate [thread=main]: Camera2 hooks installed
+2026-07-01 13:42:13.873 E/FaceGate [thread=main]: CameraXHooks setAnalyzer hook failed
+2026-07-01 13:42:13.884 E/FaceGate [thread=main]: de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at com.itsme.amkush.hooks.CameraXHooks.hookImageAnalysisSetAnalyzer(CameraXHooks.kt:45)
+	at com.itsme.amkush.hooks.CameraXHooks.hookAll(CameraXHooks.kt:32)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:113)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:454)
+	at com.qihoo.util.ʾʽʼ.ʼʽʼ(Unknown Source:44)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	... 18 more
+
+2026-07-01 13:42:13.886 D/HOOK [thread=main]: CameraXHooks ImageAnalysis.Builder hook skipped: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis$Builder
+2026-07-01 13:42:13.887 D/HOOK [thread=main]: CameraXHooks bindToLifecycle hook skipped: java.lang.ClassNotFoundException: androidx.camera.lifecycle.ProcessCameraProvider
+2026-07-01 13:42:13.887 D/HOOK [thread=main]: CameraXHooks hooks installed
+2026-07-01 13:42:13.888 D/FaceGate [thread=main]: CameraX hooks installed
+2026-07-01 13:42:13.905 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:42:13.906 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:42:13.906 D/HOOK [thread=main]: Device info for EXIF: Make=samsung, Model=SM-A145F
+2026-07-01 13:42:13.913 E/HOOK [thread=main]: ExifInterface.getAttributeInt hook failed
+2026-07-01 13:45:16.444 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:45:16.830 I/MAIN [thread=main]: TARGET MATCHED: org.mozilla.firefox — installing all hooks now
+2026-07-01 13:45:16.837 D/FaceGate [thread=main]: ConfigUpdateReceiver: registered in org.mozilla.firefox
+2026-07-01 13:45:16.848 D/HOOK [thread=main]: Camera1Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:45:16.895 D/FaceGate [thread=main]: Camera1Hooks hooks installed
+2026-07-01 13:45:16.896 D/FaceGate [thread=main]: Camera1 hooks installed
+2026-07-01 13:45:16.916 D/HOOK [thread=main]: Camera2Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:45:16.993 I/HOOK [thread=main]: Camera2Hooks all Camera2 hooks installed for org.mozilla.firefox
+2026-07-01 13:45:16.993 D/FaceGate [thread=main]: Camera2 hooks installed
+2026-07-01 13:45:16.997 E/FaceGate [thread=main]: CameraXHooks setAnalyzer hook failed
+2026-07-01 13:45:17.002 E/FaceGate [thread=main]: de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at com.itsme.amkush.hooks.CameraXHooks.hookImageAnalysisSetAnalyzer(CameraXHooks.kt:45)
+	at com.itsme.amkush.hooks.CameraXHooks.hookAll(CameraXHooks.kt:32)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:113)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:454)
+	at com.qihoo.util.ʾʽʼ.ʼʽʼ(Unknown Source:44)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	... 18 more
+
+2026-07-01 13:45:17.004 D/HOOK [thread=main]: CameraXHooks ImageAnalysis.Builder hook skipped: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis$Builder
+2026-07-01 13:45:17.006 D/HOOK [thread=main]: CameraXHooks bindToLifecycle hook skipped: java.lang.ClassNotFoundException: androidx.camera.lifecycle.ProcessCameraProvider
+2026-07-01 13:45:17.007 D/HOOK [thread=main]: CameraXHooks hooks installed
+2026-07-01 13:45:17.007 D/FaceGate [thread=main]: CameraX hooks installed
+2026-07-01 13:45:17.021 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:45:17.021 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:45:17.022 D/HOOK [thread=main]: Device info for EXIF: Make=samsung, Model=SM-A145F
+2026-07-01 13:45:17.027 E/HOOK [thread=main]: ExifInterface.getAttributeInt hook failed
+2026-07-01 13:45:17.028 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getAttributeInt(java.lang.String,int)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetAttributeInt(ExifSpoofHooks.kt:214)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:48)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.029 E/HOOK [thread=main]: ExifInterface.getAttributeDouble hook failed
+2026-07-01 13:45:17.031 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getAttributeDouble(java.lang.String,double)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetAttributeDouble(ExifSpoofHooks.kt:246)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:49)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.032 E/HOOK [thread=main]: ExifInterface.setAttribute hook failed
+2026-07-01 13:45:17.033 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#setAttribute(java.lang.String,java.lang.String)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookSetAttribute(ExifSpoofHooks.kt:278)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:50)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.034 E/HOOK [thread=main]: ExifInterface.saveAttributes hook failed
+2026-07-01 13:45:17.036 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#saveAttributes()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookSaveAttributes(ExifSpoofHooks.kt:348)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:51)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.037 E/HOOK [thread=main]: ExifInterface.hasThumbnail hook failed
+2026-07-01 13:45:17.038 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#hasThumbnail()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookHasThumbnail(ExifSpoofHooks.kt:370)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:52)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.039 E/HOOK [thread=main]: ExifInterface.getThumbnail hook failed
+2026-07-01 13:45:17.041 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getThumbnail()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetThumbnail(ExifSpoofHooks.kt:393)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:53)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.042 E/HOOK [thread=main]: ExifInterface.getLatLong hook failed
+2026-07-01 13:45:17.043 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getLatLong(float[])#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetLatLong(ExifSpoofHooks.kt:425)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:54)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:17.044 E/HOOK [thread=main]: ExifInterface.setLatLong hook failed
+2026-07-01 13:45:30.595 D/MAIN [thread=main]: handleLoadPackage: pkg=org.mozilla.firefox  processName=org.mozilla.firefox
+2026-07-01 13:45:30.902 I/MAIN [thread=main]: TARGET MATCHED: org.mozilla.firefox — installing all hooks now
+2026-07-01 13:45:30.909 D/FaceGate [thread=main]: ConfigUpdateReceiver: registered in org.mozilla.firefox
+2026-07-01 13:45:30.923 D/HOOK [thread=main]: Camera1Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:45:30.970 D/FaceGate [thread=main]: Camera1Hooks hooks installed
+2026-07-01 13:45:30.971 D/FaceGate [thread=main]: Camera1 hooks installed
+2026-07-01 13:45:30.993 D/HOOK [thread=main]: Camera2Hooks hookAll: pkg=org.mozilla.firefox
+2026-07-01 13:45:31.058 I/HOOK [thread=main]: Camera2Hooks all Camera2 hooks installed for org.mozilla.firefox
+2026-07-01 13:45:31.058 D/FaceGate [thread=main]: Camera2 hooks installed
+2026-07-01 13:45:31.061 E/FaceGate [thread=main]: CameraXHooks setAnalyzer hook failed
+2026-07-01 13:45:31.067 E/FaceGate [thread=main]: de.robv.android.xposed.XposedHelpers$ClassNotFoundError: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at com.itsme.amkush.hooks.CameraXHooks.hookImageAnalysisSetAnalyzer(CameraXHooks.kt:45)
+	at com.itsme.amkush.hooks.CameraXHooks.hookAll(CameraXHooks.kt:32)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:113)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	at java.lang.Class.classForName(Native Method)
+	at java.lang.Class.forName(Class.java:454)
+	at com.qihoo.util.ʾʽʼ.ʼʽʼ(Unknown Source:44)
+	... 15 more
+Caused by: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis
+	... 18 more
+
+2026-07-01 13:45:31.068 D/HOOK [thread=main]: CameraXHooks ImageAnalysis.Builder hook skipped: java.lang.ClassNotFoundException: androidx.camera.core.ImageAnalysis$Builder
+2026-07-01 13:45:31.070 D/HOOK [thread=main]: CameraXHooks bindToLifecycle hook skipped: java.lang.ClassNotFoundException: androidx.camera.lifecycle.ProcessCameraProvider
+2026-07-01 13:45:31.070 D/HOOK [thread=main]: CameraXHooks hooks installed
+2026-07-01 13:45:31.070 D/FaceGate [thread=main]: CameraX hooks installed
+2026-07-01 13:45:31.079 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:45:31.080 E/FaceGate [thread=main]: SharedPrefs.init() not called before use
+2026-07-01 13:45:31.080 D/HOOK [thread=main]: Device info for EXIF: Make=samsung, Model=SM-A145F
+2026-07-01 13:45:31.085 E/HOOK [thread=main]: ExifInterface.getAttributeInt hook failed
+2026-07-01 13:45:31.086 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getAttributeInt(java.lang.String,int)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetAttributeInt(ExifSpoofHooks.kt:214)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:48)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:31.087 E/HOOK [thread=main]: ExifInterface.getAttributeDouble hook failed
+2026-07-01 13:45:31.089 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getAttributeDouble(java.lang.String,double)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetAttributeDouble(ExifSpoofHooks.kt:246)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:49)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:31.090 E/HOOK [thread=main]: ExifInterface.setAttribute hook failed
+2026-07-01 13:45:31.091 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#setAttribute(java.lang.String,java.lang.String)#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookSetAttribute(ExifSpoofHooks.kt:278)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:50)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:31.092 E/HOOK [thread=main]: ExifInterface.saveAttributes hook failed
+2026-07-01 13:45:31.094 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#saveAttributes()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookSaveAttributes(ExifSpoofHooks.kt:348)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:51)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:31.095 E/HOOK [thread=main]: ExifInterface.hasThumbnail hook failed
+2026-07-01 13:45:31.096 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#hasThumbnail()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookHasThumbnail(ExifSpoofHooks.kt:370)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:52)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
+2026-07-01 13:45:31.097 E/HOOK [thread=main]: ExifInterface.getThumbnail hook failed
+2026-07-01 13:45:31.099 E/HOOK [thread=main]: java.lang.NoSuchMethodError: androidx.exifinterface.media.ExifInterface#getThumbnail()#exact
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookGetThumbnail(ExifSpoofHooks.kt:393)
+	at com.itsme.amkush.hooks.ExifSpoofHooks.hookAll(ExifSpoofHooks.kt:53)
+	at com.itsme.amkush.MainHook$hookApplication$1.afterHookedMethod(MainHook.kt:117)
+	at org.mozilla.fenix.FenixApplication.onCreate(FenixApplication.kt:1)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1266)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:7614)
+	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2400)
+	at android.os.Handler.dispatchMessage(Handler.java:106)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8757)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)
+
